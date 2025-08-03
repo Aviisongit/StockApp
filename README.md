@@ -1,0 +1,8 @@
+The StockApp is a foundational React application designed to facilitate the viewing and filtering of a predefined set of stock symbols based on their respective industry sectors. This application incorporates 
+an internal data structure, specifically the StockSymbols array, which serves as the primary static data source. This array contains essential stock information, including the ticker symbol, company name, and 
+assigned sector (e.g., Technology, Automotive, Healthcare, Finance, Consumer Discretionary). The user interface features a Navigation component that presents interactive buttons corresponding to these sectors, 
+alongside an "All" option to display the complete list. User interaction with these buttons triggers a state update within the Navigation component, which then communicates the selected sector via a callback to a 
+parent component responsible for filtering the displayed stocks. Built upon React's component based architecture and it is styled using Tailwind CSS for responsive design, the application is currently reliant on 
+static data. However, its architecture is designed for future extensibility, allowing for potential enhancements such as integration with third-party APIs for live stock data, implementation of logic for performance 
+indicators based on market trends, the addition of detailed stock views, and the incorporation of search functionality. To set up the project locally, developers require Node.js and either npm or yarn to clone the 
+repository, install dependencies, and initiate the development server. From this point on you can add in your own prefernces as well as tweks to make this your own stock applciation 
